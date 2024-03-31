@@ -10,11 +10,9 @@ next.addEventListener("click", () => {
     activeCircle++;
     circles[activeCircle].classList.add("active");
   }
-  if (activeCircle === circles.length - 1) {
-    next.disabled = true;
-  }
+  if (activeCircle === circles.length - 1) next.disabled = true;
   if (activeCircle != 0) prev.disabled = false;
-  line.style.width = `${activeCircle * 33.333}%`;
+  line.style.width = `${activeCircle * 33.3333}%`;
 });
 
 prev.addEventListener("click", () => {
