@@ -13,9 +13,7 @@ next.addEventListener("click", () => {
   if (activeCircle === circles.length - 1) {
     next.disabled = true;
   }
-  if (activeCircle != 0) {
-    prev.disabled = false;
-  }
+  if (activeCircle != 0) prev.disabled = false;
   line.style.width = `${activeCircle * 33.333}%`;
 });
 
