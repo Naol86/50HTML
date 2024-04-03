@@ -10,11 +10,14 @@
 
 body {
   /* background-color: ; */
+  background: rgb(30, 36, 0);
   background: linear-gradient(
     90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
+    rgba(30, 36, 0, 1) 21%,
+    rgba(32, 121, 9, 1) 42%,
+    rgba(8, 142, 28, 1) 62%,
+    rgba(4, 84, 179, 1) 83%,
+    rgba(154, 0, 255, 1) 96%
   );
   display: flex;
   height: 90vh;
@@ -36,6 +39,7 @@ body {
   border: 1px solid #fcfcfc;
   border-radius: 15px;
   top: 0;
+  box-shadow: 0px 0px 10px 10px rgba(2, 0, 36, 0.4);
   transition: width 1s ease;
   outline: none;
 }
